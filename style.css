@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #fafafa;
+}
+
+form {
+    margin-top: 20px;
+}
+
+select {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#result {
+    font-size: 24px;
+    color: #333;
+    margin-top: 20px;
+}
+body {
+ background-image: url('pexels-tim-mossholder-974314-1024x683.jpg');
+}
+body {
+ background-image: url('pexels-tim-mossholder-974314-1024x683.jpg');
+ background-size: auto; /* You can use 'contain' or 'auto' as well */
+ background-repeat: no-repeat; /* You can use 'repeat' or 'repeat-x' / 'repeat-y' as well */
+ background-position: center; /* You can use 'top', 'bottom', 'left', 'right', or 'center center' as well */
+}
