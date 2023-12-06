@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crop Recommendation </title>
+  <link rel="icon" href="an icon of a cr 66edeee3-b744-4a4a-a1f1-1ee1c34d9d43.png" type="image/x-icon">
+</head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+          background-image: url('https://img.freepik.com/free-vector/cloudy-purple-pink-background_91008-257.jpg?w=360&t=st=1701709287~exp=1701709887~hmac=0cbc2b8e0e62065ae7790878 360w, https://img.freepik.com/free-vector/cloudy-purple-pink-background_91008-257.jpg?w=740&t=st=1701709287~exp=1701709887~hmac=95979ed84b3dbe67462092caac2ed09886ac03350cbc2b8e0e62065ae7790878 740w, https://img.freepik.com/free-vector/cloudy-purple-pink-background_91008-257.jpg?w=826&t=st=1701709287~exp=1701709887~hmac=95979ed84b3dbe67462092caac2ed09886ac03350cbc2b8e0e62065ae7790878 826w, https://img.freepik.com/free-vector/cloudy-purple-pink-background_91008-257.jpg?w=900&t=st=1701709287~exp=1701709887~hmac=95979ed84b3dbe67462092caac2ed09886ac03350cbc2b8e0e62065ae7790878 900w, https://img.freepik.com/free-vector/cloudy-purple-pink-background_91008-257.jpg?w=996&t=st=1701709287~exp=1701709887~hmac=95979ed84b3dbe67462092caac2ed09886ac03350cbc2b8e0e62065ae7790878 996w, https://img.freepik.com/free-vector/cloudy-purple-pink-background_91008-257.jpg?w=1060&t=st=1701709287~exp=1701709887~hmac=95979ed84b3dbe67462092caac2ed09886ac03350cbc2b8e0e62065ae7790878 1060w, https://img.freepik.com/free-vector/cloudy-purple-pink-background_91008-257.jpg?w=1380&t=st=1701709287~exp=1701709887~hmac=95979ed84b3dbe67462092caac2ed09886ac03350cbc2b8e0e62065ae7790878 1380w, https://img.freepik.com/free-vector/cloudy-purple-pink-background_91008-257.jpg?w=1480&t=st=1701709287~exp=1701709887~hmac=95979ed84b3dbe67462092caac2ed09886ac03350cbc2b8e0e62065ae7790878 1480w, https://img.freepik.com/free-vector/cloudy-purple-pink-background_91008-257.jpg?w=1800&t=st=1701709287~exp=1701709887~hmac=95979ed84b3dbe67462092caac2ed09886ac03350cbc2b8e0e62065ae7790878 1800w, https://img.freepik.com/free-vector/cloudy-purple-pink-background_91008-257.jpg?w=2000&t=st=1701709287~exp=1701709887~hmac=95979ed84b3dbe67462092caac2ed09886ac03350cbc2b8e0e62065ae7790878 2000w');
+             background-size: cover;
+             background-repeat: no-repeat;
+             background-position: center;
+          }
+          
+          
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        select {
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        #result {
+            font-size: 24px;
+            color: #00;
+            margin-top: 20px;
+                  }
+      label {
+        font-size: 20px;
+        font-weight: 300px;
+            color: #00;
+            margin-top: 20px;
+      }
+          
+        
+    </style>
+</head>
+<body>
+    <h1>Crop Recommendation System</h1>
+  <h2>By Deepanshu Jha</h2>
+    <form id="form">
+        <label for="soilType">Soil Type:</label>
+        <select id="soilType">
+            <option value="">Select</option>
+            <option value="sandy">Sandy</option>
+            <option value="loamy">Loamy</option>
+            <option value="clay">Clay</option>
+        </select>
+
+        <label for="season">Season:</label>
+        <select id="season">
+            <option value="">Select</option>
+            <option value="summer">Summer</option>
+            <option value="monsoon">Monsoon</option>
+            <option value="winter">Winter</option>
+        </select>
+
+        <button type="submit">Get Recommendation</button>
+    </form>
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+
+
+  
+</body>
+</html>
+<p>THIS IS A CROP RECOMMENDATION SYSTEM</p>
+<P>SELECT THE SOIL TYPE AND THE SEASON AND THEN CLICK ON GET RECOMMENDATION</P>
